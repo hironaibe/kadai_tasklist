@@ -10,9 +10,6 @@
     </div>
   </aside>
   <div class="col-xs-8">
-    <ul class="nav nav-tabs nav-justified">
-      <li><a href="#">Status</a></li>
-      <li><a href="#">Tasks</a></li>
-    </ul>
+  <%= render 'tasktasks/tasktasks', tasklists: @tasktasks, user: @user %>
   </div>
 </div>
